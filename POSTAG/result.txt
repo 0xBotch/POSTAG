@@ -1,0 +1,22 @@
+                  HIGH FASHION DEPARTMENT STORE
+                    MONTHLY BILLING STATEMENT
+                             254
+
+
+DEPT NBR  ITEM NBR  AMOUNT OF PURCHASE  DISCOUNT AMOUNT  NET AMOUNT 
+---------------------------------------------------------------
+1         55        25.5                1.275            24.225    
+1         678       69.8                3.49             66.31     
+3         66        99                  7.92             91.08     
+4         57        80.7                6.456            74.244    
+4         78        990.4               79.232           911.168   
+4         97        70.5                5.64             64.86     
+Total Depart 1      95.3                4.765            90.535    
+Total Depart 2      0                   0                0         
+Total Depart 3      99                  7.92             91.08     
+Total Depart 4      1141.6              91.328           1050.27   
+						NET TOTAL AMOUNT		1231.89**
+						SALES TAX AT 7%			86.2321
+						SERVICE CHARGE			0.00
+
+FINAL TOTAL - (PLEASE PAY THIS AMOUNT)	1318.12***
