@@ -1,4 +1,3 @@
-// Author: Mahmoud Shehata
 #include <iostream>
 #include <iomanip>
 #include "Day.h"
