@@ -4,11 +4,17 @@
 #include<iostream>
 #include <iomanip>
 
+/*
+The Day Class add, updates, process and prints the transactions happening at the POS
+*/
 //Contructor
 Day::Day(){
 	start();
 }
-
+/*
+get the data from the text file for each department on the machine and updates it
+when scaling it, the data is to be received from POS scanner
+*/
 void Day::start(){
 	in.open("assi3.txt");
 	while (!in.eof()) {
@@ -30,7 +36,9 @@ void Day::start(){
 	}
 	in.close();
 }
-
+/*
+process the the data from each department separately, adds applicatble taxes and calculates the total amount due
+*/
 void Day::process(){
 	Bills bill1;
 	Customer customer132;
@@ -50,21 +58,22 @@ void Day::process(){
 				customer254.setItemNumber(bill1.getItemNumber());
 				customer254.setTotal(bill1.getTotal());
 			}
-			
+
 	}
 
 
 
 
 	print(customer254);
-	
+
 
 	//print bill for customer i iterative
+	// when scaling, data can be send to printer
 }
 
 void Day::print(Customer customer){
 	out.open("result.txt");
-	
+
 	//bill display
 	out << "                  HIGH FASHION DEPARTMENT STORE" << std::endl;
 	out << "                    MONTHLY BILLING STATEMENT" << std::endl;
@@ -176,4 +185,3 @@ void Day::print(Customer customer){
 
 
 }
-
